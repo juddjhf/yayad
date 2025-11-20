@@ -4,114 +4,205 @@
   <meta charset="UTF-8">
   <title>Class 12 Accountancy Overview</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", Arial, sans-serif;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      padding: 20px;
-      background-color: #f4f4f4;
+      background: #eef2f7;
+      padding: 25px;
       color: #333;
+      line-height: 1.7;
     }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+      background: linear-gradient(135deg, #4b6cb7, #182848);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
     h2 {
-      color: #0d6efd;
       margin-top: 40px;
+      color: #182848;
+      font-size: 1.8rem;
+      border-left: 5px solid #4b6cb7;
+      padding-left: 12px;
     }
+
+    h3 {
+      margin-top: 20px;
+      color: #4b6cb7;
+      font-size: 1.3rem;
+    }
+
+    p, ul, table {
+      margin-top: 12px;
+    }
+
     ul {
-      margin-left: 20px;
+      margin-left: 25px;
     }
+
+    /* NOTE BOX */
+    .note {
+      background: rgba(255, 242, 200, 0.8);
+      padding: 15px;
+      border-left: 5px solid #ffca2c;
+      border-radius: 10px;
+      margin-top: 20px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 5px 12px rgba(0,0,0,0.08);
+    }
+
+    /* TABLE */
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 20px;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 12px rgba(0,0,0,0.1);
     }
-    table, th, td {
-      border: 1px solid #888;
+
+    th {
+      background: linear-gradient(135deg, #4b6cb7, #182848);
+      color: white;
+      padding: 12px;
+      font-size: 1rem;
     }
-    th, td {
-      padding: 10px;
+
+    td {
+      padding: 12px;
       text-align: center;
+      border-bottom: 1px solid #ddd;
+      background-color: #fafafa;
     }
-    .note {
-      background-color: #fff3cd;
-      padding: 10px;
-      border-left: 4px solid #ffc107;
-      margin-top: 20px;
+
+    tr:nth-child(even) td {
+      background-color: #f0f4ff;
+    }
+
+    /* LINKS */
+    a {
+      text-decoration: none;
+      color: #4b6cb7;
+      font-weight: 600;
+    }
+
+    a:hover {
+      color: #182848;
+      text-decoration: underline;
+    }
+
+    /* Chapter list styling */
+    .chapter-list ul {
+      margin-left: 25px;
+      line-height: 1.9;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+      table {
+        font-size: 0.85rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
     }
   </style>
 </head>
+
 <body>
 
   <h1>Class 12 Accountancy Overview</h1>
 
   <h2>🧾 What is Accountancy?</h2>
   <p>Accountancy (or accounting) is the systematic process of recording, measuring, processing, and communicating financial transactions of a business or organization.</p>
+
   <p>It serves to:</p>
   <ul>
     <li>Track business performance (profit & loss)</li>
     <li>Present financial position (assets, liabilities, equity)</li>
-    <li>Inform stakeholders (management, investors, regulators) for decision-making</li>
+    <li>Inform stakeholders for decision-making</li>
   </ul>
 
   <h2>📚 Why is Accountancy Used?</h2>
   <ul>
-    <li><strong>Decision Support:</strong> Helps management and investors make informed financial and operational decisions.</li>
-    <li><strong>Compliance:</strong> Preparing statements following legal standards (e.g., Schedule III of Companies Act; GAAP).</li>
-    <li><strong>Transparency & Trust:</strong> Provides credible financial info, enabling accountability to regulators, banks, and shareholders.</li>
-    <li><strong>Performance Analysis:</strong> Tools like ratio analysis and cash flow statements offer deep insight into liquidity, profitability, and solvency.</li>
+    <li><strong>Decision Support:</strong> Helps management and investors make informed financial decisions.</li>
+    <li><strong>Compliance:</strong> Statements follow legal standards like Schedule III or GAAP.</li>
+    <li><strong>Transparency:</strong> Provides credible info to regulators, banks, shareholders.</li>
+    <li><strong>Performance Analysis:</strong> Ratios and cash flow show profitability & liquidity.</li>
   </ul>
 
   <h2>📝 CBSE Class 12 Accountancy: Chapter-Wise Breakdown</h2>
 
   <h3>Part 1: Partnership Firms</h3>
   <ul>
-    <li>Chapter 1: Accounting for Partnership Firms – Basic Concepts</li>
-    <li>Chapter 2: Reconstitution of a Partnership Firm – Admission of a Partner</li>
-    <li>Chapter 3: Reconstitution of a Partnership Firm – Retirement/Death of a Partner</li>
+    <li>Chapter 1: Basic Concepts</li>
+    <li>Chapter 2: Admission of a Partner</li>
+    <li>Chapter 3: Retirement/Death of a Partner</li>
     <li>Chapter 4: Dissolution of Partnership Firm</li>
   </ul>
 
   <h3>Part 2: Companies & Statement Analysis</h3>
   <ul>
-    <li>Chapter 1: Accounting for Share Capital</li>
-    <li>Chapter 2: Issue and Redemption of Debentures</li>
-    <li>Chapter 3: Preparation of Financial Statements of a Company</li>
-    <li>Chapter 4: Analysis of Financial Statements</li>
-    <li>Chapter 5: Accounting Ratios</li>
-    <li>Chapter 6: Cash Flow Statement</li>
+    <li>Accounting for Share Capital</li>
+    <li>Issue and Redemption of Debentures</li>
+    <li>Financial Statements of a Company</li>
+    <li>Analysis of Financial Statements</li>
+    <li>Accounting Ratios</li>
+    <li>Cash Flow Statement</li>
   </ul>
 
   <div class="note">
-    <strong>Note:</strong> You can optionally replace Chapters 4–6 with Computerized Accounting if opted by the board.
+    <strong>Note:</strong> Chapters on Financial Statement Analysis can be replaced with Computerized Accounting (optional).
   </div>
 
-  <h2>📊 Chapter Weightage (Marks Distribution)</h2>
+  <h2>📊 Chapter Weightage</h2>
+
   <table>
     <tr>
       <th>Unit</th>
       <th>Marks</th>
     </tr>
     <tr>
-      <td>Partnership Firms (Chapters 1–4)</td>
+      <td>Partnership Firms</td>
       <td>36</td>
     </tr>
     <tr>
-      <td>Share Capital & Debentures (Chapters 5–6)</td>
+      <td>Share Capital & Debentures</td>
       <td>24</td>
     </tr>
     <tr>
-      <td>Financial Statement Analysis (Chapters 7–9)</td>
+      <td>Statement Analysis</td>
       <td>12</td>
     </tr>
     <tr>
-      <td>Cash Flow Statement (Chapter 10)</td>
+      <td>Cash Flow Statement</td>
       <td>8</td>
     </tr>
     <tr>
-      <th>Total (Theory)</th>
+      <th>Total Theory</th>
       <th>80</th>
     </tr>
     <tr>
-      <td>Project Work + Viva (Part C)</td>
+      <td>Project & Viva</td>
       <td>20</td>
     </tr>
     <tr>
@@ -119,42 +210,38 @@
       <th>100</th>
     </tr>
   </table>
-  <h2>Solutions of t.s. grewal</h2>
-  <ul>
-    <li><a href="/ch-1index.html">Ch-1</a></li>
-    <li><a href="/ch2.indexl.html">Ch-2</a></li>
-    <li><a href="/Ch3.index.html">Ch-3</a></li>
-    <li><a href="/Ch2.index.html">Ch-4</a></li>
-    <li><a href="/Ch3.index.html">Ch-5</a></li>
-    <li><a href="/Ch2.index.html">Ch-6</a></li>
-    <li><a href="/Ch3.index.html">Ch-7</a></li>
-    <li><a href="/Ch2.index.html">Ch-8</a></li>
-    <li><a href="/Ch3.index.html">Ch-9</a></li>
-    <li><a href="/Ch2.index.html">Ch-10</a></li>
 
+  <h2>📘 Solutions of T.S. Grewal</h2>
+  <ul>
+    <li><a href="/ch-1index.html">Chapter 1</a></li>
+    <li><a href="/ch2.indexl.html">Chapter 2</a></li>
+    <li><a href="/Ch3.index.html">Chapter 3</a></li>
+    <li><a href="/Ch2.index.html">Chapter 4</a></li>
+    <li><a href="/Ch3.index.html">Chapter 5</a></li>
+    <li><a href="/Ch2.index.html">Chapter 6</a></li>
+    <li><a href="/Ch3.index.html">Chapter 7</a></li>
+    <li><a href="/Ch2.index.html">Chapter 8</a></li>
+    <li><a href="/Ch3.index.html">Chapter 9</a></li>
+    <li><a href="/Ch2.index.html">Chapter 10</a></li>
   </ul>
 
-  <h2>✅ Deleted / Not Included Topics (2024–25 CBSE)</h2>
+  <h2>❌ Deleted / Not Included (2024–25)</h2>
   <ul>
-    <li>Entire chapter on Not-for-Profit Organization</li>
-    <li>Comparative Statements & Common-size Statements</li>
-    <li>DBMS concepts in Computerized Accounting (e.g., payroll, data management)</li>
+    <li>Not-for-Profit Organizations</li>
+    <li>Comparative & Common-Size Statements</li>
+    <li>DBMS concepts in Computerized Accounting</li>
   </ul>
 
   <h2>🔍 How Can You Use This Info?</h2>
   <ul>
-    <li><strong>Curriculum Planning:</strong> Understand which chapters to focus on for exams.</li>
-    <li><strong>Website Content:</strong> Add chapter-wise pages (e.g., acc_ch1.html, acc_ch2.html) with explanations, examples, and practice exercises.</li>
-    <li><strong>Balanced Study Approach:</strong> Prioritize high-mark chapters first (Part A), then analysis and cash flow.</li>
+    <li><strong>Plan your study:</strong> Focus on high-weight topics first.</li>
+    <li><strong>Website content:</strong> Add chapter-wise pages with notes.</li>
+    <li><strong>Balanced preparation:</strong> Ratio Analysis + Cash Flow are scoring.</li>
   </ul>
 
   <div class="note">
-    📌 Let me know if you would like:
-    <ul>
-      <li>Chapter summary pages with concepts, formulas, and solutions.</li>
-      <li>Interactive quizzes or PDF downloads.</li>
-      <li>NCERT-aligned video tutorials or resources integration.</li>
-    </ul>
+    📌 Want me to design **chapter-wise pages**, quizzes, or PDF notes?  
+    Just tell me — I can generate all of them!
   </div>
 
 </body>
